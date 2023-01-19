@@ -1,7 +1,6 @@
 import React from "react";
 import TopBar from "./TopBar";
 import ContentRowTop from "./ContentRowTop";
-import Tabla from "./Tabla";
 import Footer from "./Footer";
 
 function ContentWrapper() {
@@ -13,7 +12,6 @@ function ContentWrapper() {
         <div id="content">
           <TopBar />
           <ContentRowTop />
-          <Tabla />
           <Footer />
         </div>
       </div>
