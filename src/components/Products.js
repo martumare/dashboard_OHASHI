@@ -8,7 +8,7 @@ function Products(){
 
   useEffect(() => {
   fetch("http://localhost:3000/api/products")
-      .then((response) => {return response.json();})
+      .then((response) => response.json())
       .then((data) => {setDish(data.data)})
       .catch((error) => console.log(error));
    }, []);
