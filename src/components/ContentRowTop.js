@@ -1,6 +1,7 @@
 import React from "react";
 import ContentRowProducts from "./ContentRowProducts";
 import LastProductInDb from "./LastProductInDb";
+import Products from "./Products";
 function ContentRowTop() {
   return (
     <React.Fragment>
@@ -13,7 +14,7 @@ function ContentRowTop() {
         {/*<!-- Content Row Products-->*/}
         <ContentRowProducts />
         {/*<!-- End Products in Data Base -->*/}
-
+        <Products />
         {/*<!-- Last Product in Data Base -->*/}
         <LastProductInDb />
       </div>
