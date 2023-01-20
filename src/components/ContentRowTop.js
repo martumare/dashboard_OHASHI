@@ -14,9 +14,10 @@ function ContentRowTop() {
         {/*<!-- Content Row Products-->*/}
         <ContentRowProducts />
         {/*<!-- End Products in Data Base -->*/}
-        <Products />
+        
         {/*<!-- Last Product in Data Base -->*/}
-        <LastProductInDb />
+        <LastProductInDb/>
+        <Products/>
       </div>
       {/*<!-- End content row last product in Data Base -->*/}
 
